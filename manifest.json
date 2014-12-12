@@ -1,0 +1,45 @@
+{
+  "appID": "fce3edd076394a58b18fa10cb59c314f",
+  "dependencies": {
+    "devkit-core": "https://github.com/gameclosure/devkit-core#v2.0.15"
+  },
+  "shortName": "toadkombat",
+  "studio": {
+    "domain": "metaltoad.com",
+    "name": "Metal Toad",
+    "stagingDomain": "metaltoad.com"
+  },
+  "supportedOrientations": [
+    "landscape"
+  ],
+  "title": "Toad Kombat",
+  "icons": {
+    "renderGloss": true
+  },
+  "icon": "resources/icons/icon512.png",
+  "android": {
+    "versionCode": 1,
+    "icons": {
+      "36": "resources/icons/android36.png",
+      "48": "resources/icons/android48.png",
+      "72": "resources/icons/android72.png",
+      "96": "resources/icons/android96.png"
+    },
+    "ios": {
+      "bundleID": "toadkombat",
+      "appleID": "123456789",
+      "version": "1.0.0",
+      "icons": {
+         "57": "resources/icons/ios57.png",
+         "72": "resources/icons/ios72.png",
+         "114": "resources/icons/ios114.png",
+         "144": "resources/icons/ios144.png",
+         "renderGloss": true
+        }
+    }
+  },
+  "splash": {
+    "autoHide": true,
+    "universal": "resources/splash/splash.png"
+  }
+}
